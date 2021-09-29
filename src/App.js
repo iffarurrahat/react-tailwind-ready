@@ -4,20 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="text-4xl bg-yellow-200 hover:text-blue-900">
+        This is my text
+      </p>
+      <p className="text-primary">hello text primary</p>
+      <p className="text-custom">This my tailwin won class</p>
     </div>
   );
 }
